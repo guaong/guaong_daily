@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script type="text/javascript">
+		window.onload=function(){
+			var height = document.documentElement.clientHeight;
+			var width = document.documentElement.clientWidth;
+			var table = document.getElementById('cells');
+			table.style.height = height / 5 * 4 + "px";
+		}
+	</script>
+    <style type="text/css">
+		body{
+			background: #181818;
+		}
+		table{
+			text-align: center;
+			margin: auto;
+		}
+		div{
+			padding: 10px;
+			color: #181818;
+			font-size: 50px;
+		}
+		td{
+			vertical-align: middle;
+		}
+		#one{
+			animation:one 5s;
+			-moz-animation:one 5s; /* Firefox */
+			-webkit-animation:one 5s; /* Safari and Chrome */
+			-o-animation:one 5s; /* Opera */
+		}
+		#two{
+			animation:two 5s;
+			-moz-animation:two 5s; /* Firefox */
+			-webkit-animation:two 5s; /* Safari and Chrome */
+			-o-animation:two 5s; /* Opera */
+		}
+		#three{
+			animation:three 5s;
+			-moz-animation:three 5s; /* Firefox */
+			-webkit-animation:three 5s; /* Safari and Chrome */
+			-o-animation:three 5s; /* Opera */
+		}
+		#four{
+			animation:four 5s;
+			-moz-animation:four 5s; /* Firefox */
+			-webkit-animation:four 5s; /* Safari and Chrome */
+			-o-animation:four 5s; /* Opera */
+		}
+		#five{
+			animation:five 5s;
+			-moz-animation:five 5s; /* Firefox */
+			-webkit-animation:five 5s; /* Safari and Chrome */
+			-o-animation:five 5s; /* Opera */
+		}
+		#six{
+			animation:six 5s;
+			-moz-animation:six 5s; /* Firefox */
+			-webkit-animation:six 5s; /* Safari and Chrome */
+			-o-animation:six 5s; /* Opera */
+		}
+		@keyframes one{
+			0%{color: #181818}
+			10%{color: white}
+			60%{color: white}
+			75%{color: #181818}
+			85%{color: white}
+			100%{color:white}
+		}
+		@keyframes two{
+			10%{color: #181818}
+			20%{color: white}
+			60%{color: white}
+			75%{color: #181818}
+			85%{color: white}
+			100%{color:white}
+		}
+		@keyframes three{
+			20%{color: #181818}
+			30%{color: white}
+			60%{color: white}
+			75%{color: #181818}
+			85%{color: white}
+			100%{color:white}
+		}
+		@keyframes four{
+			30%{color: #181818}
+			40%{color: white}
+			60%{color: white}
+			75%{color: #181818}
+			85%{color: white}
+			100%{color:white}
+		}
+		@keyframes five{
+			40%{color: #181818}
+			50%{color: white}
+			60%{color: white}
+			75%{color: #181818}
+			85%{color: white}
+			100%{color:white}
+		}
+		@keyframes six{
+			50%{color: #181818}
+			60%{color: white}
+			75%{color: #181818}
+			85%{color: white}
+			100%{color:white}
+		}
+	</style>
+</head>
+<body>
+<table id="cells" cellspacing="0" cellpadding="0">
+    <tr>
+        <td><div id="one" class="cell">G</div></td>
+        <td><div id="two" class="cell">U</div></td>
+        <td><div id="three" class="cell">A</div></td>
+        <td><div id="four" class="cell">O</div></td>
+        <td><div id="five" class="cell">N</div></td>
+        <td><div id="six" class="cell">G</div></td>
+    </tr>
+</table>
+</body>
+</html>

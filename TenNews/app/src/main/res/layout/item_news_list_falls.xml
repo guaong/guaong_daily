@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/i_list_falls_layout"
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <ImageView
+        android:layout_marginStart="10dp"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/i_list_falls_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="@string/title"
+        android:textColor="#4b4848"
+        android:lines="4"
+        android:textSize="18sp"
+        android:layout_toStartOf="@+id/i_list_falls_img"
+        android:id="@+id/i_list_falls_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
